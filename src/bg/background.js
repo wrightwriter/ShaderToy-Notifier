@@ -104,7 +104,7 @@
         getData();
     });
 
-    chrome.alarms.create('Fetch', {periodInMinutes: 1});
+    chrome.alarms.create('Fetch', {periodInMinutes: 120});
 
     getData();
 })();
